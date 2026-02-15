@@ -172,7 +172,7 @@ body {
 }
 
 .logo-subtitle {
-    color: var(--secondary-color);
+    color: var(--white);
     font-size: 0.7rem;
     font-weight: 500;
     letter-spacing: 2px;
@@ -487,7 +487,7 @@ body {
 /* PORTFOLIO SECTION */
 .portfolio {
     padding: 100px 0;
-    background: linear-gradient(135deg, rgba(26, 26, 26, 0.95) 0%, rgba(45, 45, 45, 0.85) 50%, rgba(74, 74, 74, 0.75) 100%);
+    background: linear-gradient(0deg, rgba(13, 13, 13, 0.9) 0%, rgba(74, 28, 35, 0.7) 100%);
     position: relative;
     overflow: hidden;
 }

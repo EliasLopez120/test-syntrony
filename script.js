@@ -74,10 +74,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', function() {
     const header = document.querySelector('.header');
     if (window.scrollY > 100) {
-        header.style.background = 'rgba(26, 35, 126, 0.98)';
+        header.style.background = 'rgba(45, 45, 45, 0.85)';
         header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
     } else {
-        header.style.background = 'rgba(26, 35, 126, 0.95)';
+        header.style.background = 'rgba(74, 28, 35, 0.9)';
         header.style.boxShadow = 'none';
     }
 });
