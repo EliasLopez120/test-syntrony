@@ -77,7 +77,7 @@ window.addEventListener('scroll', function() {
         header.style.background = 'rgba(45, 45, 45, 0.85)';
         header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
     } else {
-        header.style.background = 'rgba(74, 28, 35, 0.9)';
+        header.style.background = 'rgba(45, 45, 45, 0.85)';//color inicial del rectangulo donde esta SYNTRONY TECNOLOGIES INC
         header.style.boxShadow = 'none';
     }
 });
