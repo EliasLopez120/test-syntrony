@@ -213,7 +213,7 @@ body {
 /* HERO SECTION */
 .hero {
     min-height: 100vh;
-    background: linear-gradient(135deg, rgba(13, 13, 13, 0.95) 0%, rgba(45, 45, 45, 0.85) 30%, rgba(114, 47, 55, 0.8) 70%, rgba(74, 28, 35, 0.9) 100%);
+    background: linear-gradient(135deg, rgba(13, 13, 13, 0.95) 0%, rgba(74, 28, 35, 0.9) 100%);
     display: flex;
     align-items: center;
     padding: 120px 0 80px;
@@ -403,7 +403,7 @@ body {
 /* SOLUTIONS SECTION */
 .solutions {
     padding: 100px 0;
-    background: linear-gradient(135deg, rgba(13, 13, 13, 0.9) 0%, rgba(74, 28, 35, 0.7) 100%);
+    background: linear-gradient(10deg, rgba(13, 13, 13, 0.9) 0%, rgba(74, 28, 35, 0.7) 100%);
     position: relative;
     overflow: hidden;
 }
@@ -488,7 +488,7 @@ body {
 /* PORTFOLIO SECTION */
 .portfolio {
     padding: 100px 0;
-    background: linear-gradient(135deg, rgba(13, 13, 13, 0.9) 0%, rgba(74, 28, 35, 0.7) 100%);
+    background: linear-gradient(170deg, rgba(13, 13, 13, 0.9) 0%, rgba(74, 28, 35, 0.7) 100%);
     position: relative;
     overflow: hidden;
 }
@@ -675,7 +675,7 @@ body {
 /* ABOUT SECTION */
 .about {
     padding: 100px 0;
-    background: linear-gradient(135deg, rgba(13, 13, 13, 0.95) 0%, rgba(74, 28, 35, 0.8) 100%);
+    background: linear-gradient(350deg, rgba(13, 13, 13, 0.95) 0%, rgba(74, 28, 35, 0.8) 100%);
     position: relative;
     overflow: hidden;
 }
