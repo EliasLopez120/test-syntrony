@@ -131,15 +131,16 @@ body {
     z-index: 1000;
     transition: all 0.3s ease;
     border-bottom: 1px solid rgba(60, 106, 153, 0.2);
+    
 }
 
 .navbar {
-    padding: 1rem 0;
+    padding: 0;
 }
 
 .nav-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0, auto;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -150,11 +151,12 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
+    padding: 0 0 0 80px;
 }
 
 .logo-img {
-    width: 180px;
-    height: 50px;
+    width: 200px;
+    height: 100px;
     object-fit: contain;
     filter: brightness(0) invert(1); /* Convierte la imagen a blanco */
 }
@@ -217,7 +219,7 @@ body {
     background: linear-gradient(135deg, rgba(13, 13, 13, 0.95) 0%, rgba(74, 28, 35, 0.9) 100%);
     display: flex;
     align-items: center;
-    padding: 120px 0 80px;
+    padding: 150px 0 80px;
     position: relative;
     overflow: hidden;
 }

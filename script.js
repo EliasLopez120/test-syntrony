@@ -74,10 +74,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', function() {
     const header = document.querySelector('.header');
     if (window.scrollY > 100) {
-        header.style.background = 'rgba(45, 45, 45, 0.85)';
-        header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+        header.style.background = 'linear-gradient(135deg, rgba(13, 13, 13, 0.98) 0%, rgba(74, 28, 35, 0.95) 100%)';
+        header.style.boxShadow = '0 2px 20px rgba(114, 47, 55, 0.3)';
     } else {
-        header.style.background = 'rgba(45, 45, 45, 0.85)';//color inicial del rectangulo donde esta SYNTRONY TECNOLOGIES INC
+        header.style.background = 'linear-gradient(135deg, rgba(13, 13, 13, 0.95) 0%, rgba(74, 28, 35, 0.9) 100%)';//color inicial del rectangulo donde esta SYNTRONY TECNOLOGIES INC
         header.style.boxShadow = 'none';
     }
 });
@@ -222,7 +222,7 @@ window.addEventListener('scroll', function() {
     const heroContent = document.querySelector('.hero-content');
     
     if (hero && heroContent) {
-        heroContent.style.transform = `translateY(${scrolled * 0.5}px)`;
+        heroContent.style.transform = `translateY(${scrolled * 0.2}px)`;//Controla el movimiento con el que baja el texto de la derecha
         heroContent.style.opacity = 1 - scrolled / 800;
     }
 });
